@@ -1,0 +1,7 @@
+1. A container wasn't responding to variable change, it was just stuck to its initialization.
+2. When using "setState" to change a variable (bool value = false, value = !value) it changed it only once
+3. Using an icon image as an icon, in a stack, I wrapped it up with InkResponse to get the splash effect. but it was behind some
+widgets. Even though, it was the last widget in the stack.
+4. When I added a new asset, the program couldn't recognize it. I had to add it directly.
+5. When I go to a page from the home page which contains a search bar having a "TextField", the typing menu
+gets opened automatically. like the focus is never out
